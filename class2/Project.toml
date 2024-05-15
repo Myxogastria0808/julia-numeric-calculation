@@ -1,0 +1,8 @@
+name = "class2"
+uuid = "809ef69c-1920-4005-b590-150135af64b5"
+authors = ["'Myxogastria0808' <r.rstudio.c@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
