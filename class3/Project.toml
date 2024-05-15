@@ -1,0 +1,7 @@
+name = "class3"
+uuid = "e24958c8-6394-4f6f-bcf0-3f5cb81ee5f2"
+authors = ["Myxogastria0808 <r.rstudio.c@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
