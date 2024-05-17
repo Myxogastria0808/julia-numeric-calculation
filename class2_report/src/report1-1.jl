@@ -1,10 +1,9 @@
-module report1_1
-
+module MonteCarlo
     using Random
 
     Random.seed!(0)
 
-    function MonteCarlo(n::Int64)
+    function monte_carlo_func(n::Int64)::Float64
         if n <= 0
             throw("n have to larger than 0.")
         end
@@ -37,13 +36,13 @@ module report1_1
 end
 
 
-using .report1_1
+using .MonteCarlo
 
-p_1::Float64 = report1_1.MonteCarlo(1)
+p_1::Float64 = MonteCarlo.monte_carlo_func(1)
 println("p_1 = $p_1")
 
-p_100::Float64 = report1_1.MonteCarlo(100)
+p_100::Float64 = MonteCarlo.monte_carlo_func(100)
 println("p_100 = $p_100")
 
-p_0::Float64 = report1_1.MonteCarlo(0)
+p_0::Float64 = MonteCarlo.monte_carlo_func(0)
 println("p_0 = $p_0")

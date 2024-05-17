@@ -13,3 +13,7 @@ https://bicycle1885.org/slides/2021/juliainphysics2021/#1
 https://zenn.dev/niyaton/articles/9fa4daaab48d16
 
 https://teratail.com/questions/366881
+
+## 公式ドキュメント
+
+https://mnru.github.io/julia-doc-ja-v1.0/manual

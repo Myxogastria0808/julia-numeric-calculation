@@ -1,6 +1,6 @@
 name = "class2_report"
-uuid = "3e7c9069-a918-439a-843a-fa7b5956079f"
-authors = ["'Myxogastria0808' <r.rstudio.c@gmail.com>"]
+uuid = "6fe83e94-4442-484a-89a7-bc0fc4309a38"
+authors = ["Myxogastria0808 <r.rstudio.c@gmail.com>"]
 version = "0.1.0"
 
 [deps]
