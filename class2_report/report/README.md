@@ -14,6 +14,16 @@ https://zenn.dev/niyaton/articles/9fa4daaab48d16
 
 https://teratail.com/questions/366881
 
+https://cheatsheet.juliadocs.org/ja/
+
+https://qiita.com/ttabata/items/a1ada2c0cba03672e105
+
+## 桁落ちについての参考サイト
+
+https://japan.zdnet.com/glossary/exp/%E6%A1%81%E8%90%BD%E3%81%A1/?s=4
+
+https://e-words.jp/w/%E6%A1%81%E8%90%BD%E3%81%A1.html
+
 ## LaTeX 参考サイト
 
 https://www.ochappa.net/posts/latex-code-b

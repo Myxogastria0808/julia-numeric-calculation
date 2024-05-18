@@ -1,14 +1,14 @@
-module MonteCarlo
+module MonteCarloModule
     using Random
     Random.seed!(0)
-    function monte_carlo_func(n::Int64)::Float64
-        x::Array{Float64} = zeros(Float64, n)
-        y::Array{Float64} = zeros(Float64, n)
+    function MonteCarlo(n::Int64)::Float64
+        x::Vector{Float64} = zeros(Float64, n)
+        y::Vector{Float64} = zeros(Float64, n)
         for i::Int64 = 1:n
             x[i] = rand()
             y[i] = rand()
         end
-        r::Array{Float64} = zeros(Float64, n)
+        r::Vector{Float64} = zeros(Float64, n)
         for i::Int64 = 1:n
             r[i] = x[i]^2 + y[i]^2
         end
@@ -20,6 +20,13 @@ module MonteCarlo
         end
         p::Float64 = 4*m/n
         return p
+    end
+
+    function monte_carlo_func(n::Int64)::Float64
+        if n <= 0
+            throw("n have to larger than 0.")
+        end
+        return MonteCarlo(n)
     end
 
     struct MonteCarloData
@@ -41,15 +48,14 @@ module MonteCarlo
     end
 end
 
-using .MonteCarlo
+using .MonteCarloModule
 using Plots
 
-data::MonteCarlo.MonteCarloData = MonteCarlo.monte_carlo_data_func(6)
+data::MonteCarloModule.MonteCarloData = MonteCarloModule.monte_carlo_data_func(6)
 
-#plotしたものを表示
-display(plot(data.n_vec, data.result_vec, xaxis=:log))
-_ = Base.prompt("abc")
+plot(data.n_vec, data.result_vec, xaxis=:log)
+savefig("report1-2.png")
 
-#plotしたものを画像に保存
-# plot(n_vec, result_vec, xaxis=:log)
-# savefig("report1-2.png")
+# #plotしたものを表示
+# display(plot(data.n_vec, data.result_vec, xaxis=:log))
+# _ = Base.prompt("abc")
