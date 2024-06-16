@@ -1,473 +1,233 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.5.4)  18 MAY 2024 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  2 JUN 2024 01:06
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**abc.tex
-(./abc.tex
-pLaTeX2e <2023-02-14u04>+1, based on
+**/home/hello/Desktop/julia-numeric-calculation/class2_report/report/abc.tex
+(/home/hello/Desktop/julia-numeric-calculation/class2_report/report/abc.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (/usr/local/texlive/2024/texmf-dist/tex/platex/jsclasses/jsarticle.cls
-Document Class: jsarticle 2023/02/23 jsclasses (okumura, texjporg)
-\jsc@mpt=\dimen156
-\jsc@mmm=\dimen157
-\jsc@smallskipamount=\skip48
-LaTeX Info: Redefining \textmc on input line 511.
-LaTeX Info: Redefining \textgt on input line 513.
-\symmincho=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 575.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 769.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 769.
-\fullwidth=\dimen158
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 922.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 922.
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\@abstractbox=\box68
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\jsc@tocl@width=\dimen159
-\@lnumwidth=\dimen160
-\bibindent=\dimen161
-(/usr/local/texlive/2024/texmf-dist/tex/platex/jsclasses/jslogo.sty
-Package: jslogo 2019/07/25 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 82.
-LaTeX Info: Redefining \LaTeX on input line 135.
-LaTeX Info: Redefining \LaTeXe on input line 188.
-)
-\heisei=\count196
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+
+/usr/local/texlive/2024/texmf-dist/tex/platex/jsclasses/jsarticle.cls:14: LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+\KV@toks@=\toks17
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 107.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2024/04/27 v2.1a lastpage: 2.09 or 2e? (HMM)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2024/04/27 v2.1a Decide which 2e lastpage version to use (H
-MM)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2024/04/27 v2.1a Decide which 2e lastpage version to use (HMM)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2024-04-27 v2.1a Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count197
+\c@lastpagecount=\count189
 ) 
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count198
-\lst@gtempboxa=\box69
-\lst@token=\toks19
-\lst@length=\count199
-\lst@currlwidth=\dimen164
-\lst@column=\count266
-\lst@pos=\count267
-\lst@lostspace=\dimen165
-\lst@width=\dimen166
-\lst@newlines=\count268
-\lst@lineno=\count269
-\lst@maxwidth=\dimen167
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count190
+\lst@gtempboxa=\box51
+\lst@token=\toks18
+\lst@length=\count191
+\lst@currlwidth=\dimen142
+\lst@column=\count192
+\lst@pos=\count193
+\lst@lostspace=\dimen143
+\lst@width=\dimen144
+\lst@newlines=\count194
+\lst@lineno=\count195
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+\lst@maxwidth=\dimen145
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
-\c@lstnumber=\count270
-\lst@skipnumbers=\count271
-\lst@framebox=\box70
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+\c@lstnumber=\count196
+\lst@skipnumbers=\count197
+\lst@framebox=\box52
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/03/11 1.10a listings configuration
 ))
 Package: listings 2024/03/11 1.10a (Carsten Heinz)
-
-(./jlisting.sty
+ (./jlisting.sty
 Package: jlisting 2006/02/20 0.2 (Thor)
-\lst@nextchar=\count272
+\lst@nextchar=\count198
 \lst@inputfile=\read2
+
+./jlisting.sty:158: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.158 \def\email#1
+                  {\gdef\@email{\texttt{#1}}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:158: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.158 \def\email#1{\gdef\@email{\texttt{#1
+                                          }}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:159: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.159 \def\homepage#1
+                     {\gdef\@homepage{\texttt{#1}}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:159: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.159 \def\homepage#1{\gdef\@homepage{\texttt{#1
+                                                }}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:160: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.160 \def\mac#1
+                {\textsf{#1}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:160: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.160 \def\mac#1{\textsf{#1
+                           }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:161: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.161 \def\URL#1
+                {\texttt{#1}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:161: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.161 \def\URL#1{\texttt{#1
+                           }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:162: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.162 \def\src#1
+                {\texttt{#1}}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:162: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   1
+l.162 \def\src#1{\texttt{#1
+                           }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./jlisting.sty:193: Illegal parameter number in definition of \lstlistingname.
+<to be read again> 
+                   ^^[
+l.193 ^^[$BE>:\$7$^$7$?!#^^[
+                            (B
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: dvipdfmx.def on input line 274.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
-File: l3backend-dvipdfmx.def 2024-04-11 L3 backend support: dvipdfmx
-\g__graphics_track_int=\count273
-\l__pdf_internal_box=\box71
-\g__pdf_backend_annotation_int=\count274
-\g__pdf_backend_link_int=\count275
-) (./abc.aux
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `code:in' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `julia' multiply defined.
-
-
-LaTeX Warning: Label `cancellation_of_significant_digits' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
-
-
-LaTeX Warning: Label `latex' multiply defined.
+Runaway definition?
+->^^[$B\def \lstlistlistingname {^^[$B\endinput \documentclass [paper\ETC.
+/home/hello/Desktop/julia-numeric-calculation/class2_report/report/abc.tex:7: File ended while scanning definition of \lstlistingname.
+<inserted text> 
+                }
+l.7 \usepackage
+               {xcolor}
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
 )
-\openout1 = `abc.aux'.
+Runaway definition?
+->^^[$B\def \lstlistlistingname {^^[$B\endinput \documentclass [paper\ETC.
+! File ended while scanning definition of \lstlistingname.
+<inserted text> 
+                }
+<*> ...ic-calculation/class2_report/report/abc.tex
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-\c@lstlisting=\count276
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 65.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 65.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 65.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 65.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 66.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 66.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 66.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 66.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 68.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 68.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 68.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 68.
+! Emergency stop.
+<*> ...ic-calculation/class2_report/report/abc.tex
+                                                  
+*** (job aborted, no legal \end found)
 
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[1
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-110.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/03/11 1.10a listings language file
-)
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[2]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[3]
-File: report1-2.png Graphic file (type bmp)
-<report1-2.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 216.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 216.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 216.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 216.
-
-Underfull \hbox (badness 1635) in paragraph at lines 216--217
-[]\JY2/mc/m/n/10 課題 \OT1/cmr/m/n/10 2 \JY2/mc/m/n/10 では $\OML/cmm/m/it/
-10 roots\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Polynomial\OT1/cmr/m/n/10 ([\OML/cmm/
-m/it/10 c; b; a\OT1/cmr/m/n/10 ]))$ \JY2/mc/m/n/10 で計算した結果を正
-しいものと仮定して
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 216--217
-\JY2/mc/m/n/10 いるので 、 $[] \OT1/cmr/m/n/10 = (\OMS/cmsy/m/n/10 ^^@\OML
-/cmm/m/it/10 b \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 sqrt\OT1/cmr/m/n/10 (\OML/cmm
-/m/it/10 b[]:\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 4\OML/cmm/m
-/it/10 :\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^C \OML/cmm/m/it/10 a \OMS/cmsy/m/n
-/10 ^^C \OML/cmm/m/it/10 c\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 (
-2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^C \OML/cmm/m/it/10 a\OT
-1/cmr/m/n/10 )$\JY2/mc/m/n/10 、 $[] \OT1/cmr/m/n/10 =
- []
-
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[5]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[6]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[7]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[9]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[10]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[11]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[12]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[13]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[14]
-
-Package fancyhdr Warning: \headheight is too small (20.0pt): 
-(fancyhdr)                Make it at least 28.93726pt, for example:
-(fancyhdr)                \setlength{\headheight}{28.93726pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-[15] 
-enddocument/afterlastpage: lastpage setting LastPage.
-(./abc.aux)
- ***********
-pLaTeX2e <2023-02-14u04>+1, based on
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-04-11>
- ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 3896 strings out of 474708
- 57247 string characters out of 5757384
- 2185596 words of memory out of 5000000
- 26327 multiletter control sequences out of 15000+600000
- 565635 words of font info for 80 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 70i,12n,65p,279b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on abc.dvi (15 pages, 132256 bytes).
+ 1997 strings out of 474050
+ 31452 string characters out of 5742270
+ 1925751 words of memory out of 5000000
+ 24467 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,0n,65p,318b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

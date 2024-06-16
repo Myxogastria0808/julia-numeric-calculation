@@ -1,25 +1,7 @@
-module test
+modul test
 
 using Random
-using Plots
-
-Random.seed!(0)
-
-p = zeros(100)
-
-for n = 1:100
-
-    x = zeros(n) # n次元ベクトルを全要素の値0で生成
-    y = zeros(n)
-
-    for i = 1:n
-        x[i] = rand()
-        y[i] = rand()
-    end
-
-    r = zeros(n)
-
-    for i = 1:n
+using Plots    for i = 1:n
         r[i] = x[i]^2 + y[i]^2
     end
 
