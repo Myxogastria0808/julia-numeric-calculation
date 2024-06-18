@@ -67,12 +67,13 @@ module Exp
     return tuple(myexp_arrary, myexp2_arrary, myexp3_arrary)
   end
 
-  function exp_graph(n::Int64, start_point::Float64, end_point::Float64, point_quantity::Int64)
+  function exp_graph(n::Int64, start_point::Float64, end_point::Float64, point_quantity::Int64, png::String)
     myexp_arrary::Array{Float64}, myexp2_arrary::Array{Float64}, myexp3_arrary::Array{Float64} = exp_relative_error_data(n, start_point, end_point, point_quantity) 
 
-    display(Plots.plot(range(start_point, end_point, point_quantity), myexp_arrary, ylim=[10^(-20), 1.0], yaxis=:log))
-    display(Plots.plot!(range(start_point, end_point, point_quantity), myexp2_arrary, ylim=[10^(-20), 1.0], yaxis=:log))
-    display(Plots.plot!(range(start_point, end_point, point_quantity), myexp3_arrary, ylim=[10^(-20), 1.0], yaxis=:log))
+    Plots.plot(range(start_point, end_point, point_quantity), myexp_arrary, ylim=[10^(-20), 1.0], yaxis=:log)
+    Plots.plot!(range(start_point, end_point, point_quantity), myexp2_arrary, ylim=[10^(-20), 1.0], yaxis=:log)
+    Plots.plot!(range(start_point, end_point, point_quantity), myexp3_arrary, ylim=[10^(-20), 1.0], yaxis=:log)
+    savefig("$png")
   end
 
 end
@@ -95,7 +96,7 @@ a, b, c = Exp.exp_relative_error_data(200, -50.0, 50.0, 101)
 
 println("myexp = $a, myexp2 = $b, myexp3 = $c")
 
-Exp.exp_graph(200, -50.0, 50.0, 10000)
-
-const _ = Base.prompt("Press Anykey")
-
+Exp.exp_graph(200, -50.0, 50.0, 10000, "exp200_50.png")
+Exp.exp_graph(200, -500.0, 500.0, 10000, "exp200_500.png")
+Exp.exp_graph(1000, -50.0, 50.0, 10000, "exp1000_50.png")
+Exp.exp_graph(1000, -500.0, 500.0, 10000, "exp1000_500.png")

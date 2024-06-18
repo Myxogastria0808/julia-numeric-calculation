@@ -22,7 +22,8 @@ module Sin
       #相対誤差の配列
       push!(p_array, abs(p - correct) / abs(correct))
     end
-    display(Plots.plot(power_start:power_end, p_array))
+    Plots.plot(power_start:power_end, p_array, label="|mysin(n, π/4) - sin(π/4)| / |sin(π/4)|")
+    savefig("mysin.png")
   end
 
   function sin_maclaurin_data(start_point::Float64, end_point::Float64, step_point::Int64, n::Int64)::Array{Float64}
@@ -31,21 +32,20 @@ module Sin
       sin_point::Float64 = mysin(n, x)
       push!(sin_array, sin_point)
     end
-    return sin_array 
+    return sin_array
   end
 
   function sin_maclaurin_graph(start_point::Float64, end_point::Float64, step_point::Int64, n_array::Array{Int64})
     for n=1:length(n_array)
       sin_array = sin_maclaurin_data(start_point, end_point, step_point, n_array[n])
       if n == 1
-        display(Plots.plot(1:step_point, sin_array))
+        Plots.plot(1:step_point, sin_array, label="n=$n")
       else
-        display(Plots.plot!(1:step_point, sin_array))
+        Plots.plot!(1:step_point, sin_array, label="n=$n")
       end
     end
+    savefig("sin_maclaurin.png")
   end
-
-
 
 end
 
@@ -53,25 +53,9 @@ using .Sin
 using Plots
 
 #(3.1)
-# x = pi / 4ついて
 const x::Float64 = pi / 4
 
 Sin.sin_maclaurin(1, 15, x)
 
-const _ = Base.prompt("Press Anykey")
-
 #(3.2)
-#n=1,3,5,7
-#x=0:pi/180:pi
-hello::Array{Float64} = Sin.sin_maclaurin_data(0.0, Float64(pi), 180, 15)
-
-display(
-  Plots.plot(1:180, hello)
-)
-
-const _ = Base.prompt("Press Anykey")
-
 Sin.sin_maclaurin_graph(0.0, Float64(pi), 180, [1, 3, 5, 7])
-
-const _ = Base.prompt("Press Anykey")
-

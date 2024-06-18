@@ -14,9 +14,10 @@ module Runge
     x_cos::Array{Float64} = cos.(range(cos_start_point, cos_end_point, point_quantity));
     range_cos_poly = Polynomials.fit(x_cos, f.(x_cos));
 
-    correct_plot = plot(f, xlim=[-1.0, 1.0])
-    r_poly_plot = plot!(correct_plot, range_r_poly, xlim=[-1.0, 1.0])
-    display(plot!(r_poly_plot, range_cos_poly, xlim=[-1.0, 1.0]))
+    correct_plot = Plots.plot(f, xlim=[-1.0, 1.0], label="correct function", legend=:bottomright)
+    r_poly_plot = Plots.plot!(correct_plot, range_r_poly, xlim=[-1.0, 1.0], label="Value taken at equal intervals in the interval [-1,1]", legend=:bottomright)
+    Plots.plot!(r_poly_plot, range_cos_poly, xlim=[-1.0, 1.0], label="Value of cos(θi) when θi is taken equally spaced in the interval [0,π]", legend=:bottomright)
+    Plots.savefig("runge.png")
   end
 
 end
@@ -24,6 +25,3 @@ end
 using .Runge
 
 Runge.runge_graph(-1.0, 1.0, 0.0, Float64(pi), 10)
-
-const _ = Base.prompt("Press Anykey")
-
