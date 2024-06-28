@@ -11,9 +11,12 @@ end
 function make_m(a::Matrix{Float64})::Vector{Matrix{Float64}}
   P_vec::Vector{Matrix{Float64}} = []
   for j = 1:(size(a)[2]-1)     #列
-    for i = (j+1):(size(a)[1]) #行
-      push!(P_vec, Pij(i, j, -(a[i, j] / a[j, j]), (size(a)[1])))
+    m = Pij((j + 1), j, -(a[(j+1), j] / a[j, j]), (size(a)[1]))
+    for i = (j+2):(size(a)[1]) #行
+      m = Pij(i, j, -(a[i, j] / a[j, j]), (size(a)[1])) * m
     end
+    a = m * a
+    push!(P_vec, m)
   end
   return P_vec
 end
@@ -48,7 +51,9 @@ a = [
 
 #(1.1)
 m = Task1LU.make_m(a)
-println("m = $m")
+for i = eachindex(m)
+  println("M($i) = $(m[i])")
+end
 
 println("===================")
 
@@ -58,5 +63,5 @@ println("U = $u")
 l = Task1LU.make_l(a)
 println("L = $l")
 
-print("L * U = $(l * u)")
+println("L * U = $(l * u)")
 

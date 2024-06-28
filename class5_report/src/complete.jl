@@ -32,7 +32,7 @@ module Complete
   end
 
   function guess_y(x::Float64, c::Vector{Float64})
-    return c[2] * x + c[1] 
+    return c[2] * x + c[1]
   end
 
   function guess_x(y::Float64, c::Vector{Float64})
