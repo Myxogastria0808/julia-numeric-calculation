@@ -64,4 +64,3 @@ l = Task1LU.make_l(a)
 println("L = $l")
 
 println("L * U = $(l * u)")
-

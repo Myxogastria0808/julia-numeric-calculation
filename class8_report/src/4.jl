@@ -32,7 +32,8 @@ end
 
 function newton_plot(newton_p_vec::Vector{ComplexF64}, poly_p_vec::Vector{ComplexF64})
   newton_plot = Plots.plot(newton_p_vec, markershape=:circle, la=0.0, label="Newton Method")
-  display(Plots.plot!(newton_plot, poly_p_vec, markershape=:square, la=0.0, label="Answer"))
+  Plots.plot!(newton_plot, poly_p_vec, markershape=:square, la=0.0, label="Answer")
+  savefig("newton.png")
 end
 
 function newton_error(newton_p_vec::Vector{ComplexF64})
@@ -41,7 +42,8 @@ function newton_error(newton_p_vec::Vector{ComplexF64})
   for i = eachindex(newton_p_vec)
     push!(result_vec, abs(newton_p_vec[i]))
   end
-  display(Plots.plot(index_vec, result_vec, yaxis=:log, markershape=:square, la=0.0, label="Error by Newton Method"))
+  Plots.plot(index_vec, result_vec, yaxis=:log, markershape=:square, la=0.0, label="Error by Newton Method")
+  savefig("newton_error.png")
 end
 
 end
@@ -63,8 +65,6 @@ poly= NewtonMethod.poly_p()
 
 #plot graph
 NewtonMethod.newton_plot(newton, poly)
-Base.prompt("Press Anykey")
 
 #(4.3)
 NewtonMethod.newton_error(newton)
-Base.prompt("Press Anykey")

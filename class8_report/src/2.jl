@@ -1,12 +1,5 @@
 module Task2LU
-
 using LinearAlgebra
-
-function Pij(i, j, alpha, n)
-  In = Matrix{Float64}(I, n, n)  # n次元の単位行列の作成
-  P = In + alpha * In[:, i] * In[:, j]'
-  return P
-end
 
 function make_u(a::Matrix{Float64})::Matrix{Float64}
   u::Matrix{Float64} = deepcopy(a)
@@ -29,8 +22,6 @@ function make_lu(a::Matrix{Float64})::Tuple{Matrix{Float64}, Matrix{Float64}}
       alpha = -1.0 * (u[i, j] / u[i, i])
       u[j, :] = alpha * u[i, :] + u[j, :]
       l[:, i] = -1.0 * alpha * l[:, j] + l[:, i]
-      println("i: $i j: $j alpha: $alpha")
-      println("l: $l")
     end
   end
   return (l, u)

@@ -67,13 +67,12 @@ function search_true_solution(newton_p_vec::Vector{ComplexF64}, poly_p_vec::Vect
     return result
 end
 
-function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_max::Float64, m::Int64)
+function newton_advanced_data(x_min::Float64, x_max::Float64, y_min::Float64, y_max::Float64, m::Int64)::Vector{Vector{Int64}}
     initial_value::ComplexF64 = 0.0
-    true_solution::ComplexF64 = 0.0
     newton_p_vec::Vector{ComplexF64} = zeros(ComplexF64, 0)
     poly_p_vec::Vector{ComplexF64} = NewtonMethod.poly_p()
     #結果の格納
-    result_array::Array{Array{ComplexF64}} = zeros(ComplexF64, 0)
+    result_array::Array{Array{Int64}} = zeros(Int64, 0)
     inner_array::Array{ComplexF64} =zeros(ComplexF64, 0)
     for x=range(x_min, x_max, m)
         inner_array = zeros(ComplexF64, 0)
@@ -82,17 +81,48 @@ function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_
             initial_value = complex(x, y)
             #Newton Method
             newton_p_vec = NewtonMethod.newton_p(initial_value)
-            println("initial_value: $initial_value")
             #search index
             index = search_true_solution(newton_p_vec, poly_p_vec)
-            true_solution = poly_p_vec[index]
             #push
-            push!(inner_array, true_solution)
+            push!(inner_array, index)
         end
         #push
         push!(result_array, inner_array)
     end
     return result_array
+end
+
+function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_max::Float64, m::Int64)
+  #元データ
+  data::Vector{Vector{Int64}} = newton_advanced_data(x_min, x_max, y_min, y_max, m)
+  #各インデックスのデータ
+  x_1::Vector{Int64} = zeros(Int64, 0)
+  y_1::Vector{Int64} = zeros(Int64, 0)
+  x_2::Vector{Int64} = zeros(Int64, 0)
+  y_2::Vector{Int64} = zeros(Int64, 0)
+  x_3::Vector{Int64} = zeros(Int64, 0)
+  y_3::Vector{Int64} = zeros(Int64, 0)
+  for y=eachindex(data)
+    for x=eachindex(data[y])
+      if data[y][x] == 1
+        push!(x_1, x)
+        push!(y_1, y)
+        println("uooooooo one")
+      elseif data[y][x] == 2
+        push!(x_2, x)
+        push!(y_2, y)
+        println("uooooooo two")
+      elseif data[y][x] == 3
+        push!(x_3, x)
+        push!(y_3, y)
+        println("uooooooo three")
+      end
+      println("x = $x, y = $y")
+    end
+  end
+  display(Plots.scatter(x_1, y_1, markerstrokewidth = 0, mc=:red, legend=false))
+  display(Plots.scatter!(x_2, y_2, markerstrokewidth = 0, mc=:green, legend=false))
+  display(Plots.scatter!(x_3, y_3, markerstrokewidth = 0, mc=:blue, legend=false))
 end
 
 end
@@ -108,4 +138,8 @@ index = NewtonMethodAdvanced.search_true_solution(newton, poly)
 println("index = $index")
 println("true solution = $(poly[index])")
 
-result = NewtonMethodAdvanced.newton_advanced_plot(-4.0, 4.0, -5.0, 5.0, 30)
+result = NewtonMethodAdvanced.newton_advanced_data(-4.0, 4.0, -5.0, 5.0, 300)
+println("result = $result")
+
+NewtonMethodAdvanced.newton_advanced_plot(-4.0, 4.0, -5.0, 5.0, 300)
+Base.prompt("Press Anykey")
