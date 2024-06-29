@@ -51,45 +51,45 @@ end
 using .NewtonMethod
 
 function search_true_solution(newton_p_vec::Vector{ComplexF64}, poly_p_vec::Vector{ComplexF64})::Int64
-    approximate_solution::ComplexF64 = newton_p_vec[length(newton_p_vec)]
-    #初期値
-    divergence::Float64 = abs(poly_p_vec[1] - approximate_solution)
-    after_divergence::Float64 = 0.0
-    #結果
-    result::Int64 = 1
-    for i=2:length(poly_p_vec)
-        after_divergence = abs(poly_p_vec[i] - approximate_solution)
-        if divergence > after_divergence
-            divergence = after_divergence
-            result = i
-        end
+  approximate_solution::ComplexF64 = newton_p_vec[length(newton_p_vec)]
+  #初期値
+  divergence::Float64 = abs(poly_p_vec[1] - approximate_solution)
+  after_divergence::Float64 = 0.0
+  #結果
+  result::Int64 = 1
+  for i = 2:length(poly_p_vec)
+    after_divergence = abs(poly_p_vec[i] - approximate_solution)
+    if divergence > after_divergence
+      divergence = after_divergence
+      result = i
     end
-    return result
+  end
+  return result
 end
 
 function newton_advanced_data(x_min::Float64, x_max::Float64, y_min::Float64, y_max::Float64, m::Int64)::Vector{Vector{Int64}}
-    initial_value::ComplexF64 = 0.0
-    newton_p_vec::Vector{ComplexF64} = zeros(ComplexF64, 0)
-    poly_p_vec::Vector{ComplexF64} = NewtonMethod.poly_p()
-    #結果の格納
-    result_array::Array{Array{Int64}} = zeros(Int64, 0)
-    inner_array::Array{ComplexF64} =zeros(ComplexF64, 0)
-    for x=range(x_min, x_max, m)
-        inner_array = zeros(ComplexF64, 0)
-        for y=range(y_min, y_max, m)
-            #x+yi
-            initial_value = complex(x, y)
-            #Newton Method
-            newton_p_vec = NewtonMethod.newton_p(initial_value)
-            #search index
-            index = search_true_solution(newton_p_vec, poly_p_vec)
-            #push
-            push!(inner_array, index)
-        end
-        #push
-        push!(result_array, inner_array)
+  initial_value::ComplexF64 = 0.0
+  newton_p_vec::Vector{ComplexF64} = zeros(ComplexF64, 0)
+  poly_p_vec::Vector{ComplexF64} = NewtonMethod.poly_p()
+  #結果の格納
+  result_array::Array{Array{Int64}} = zeros(Int64, 0)
+  inner_array::Array{ComplexF64} = zeros(ComplexF64, 0)
+  for x = range(x_min, x_max, m)
+    inner_array = zeros(ComplexF64, 0)
+    for y = range(y_min, y_max, m)
+      #x+yi
+      initial_value = complex(x, y)
+      #Newton Method
+      newton_p_vec = NewtonMethod.newton_p(initial_value)
+      #search index
+      index = search_true_solution(newton_p_vec, poly_p_vec)
+      #push
+      push!(inner_array, index)
     end
-    return result_array
+    #push
+    push!(result_array, inner_array)
+  end
+  return result_array
 end
 
 function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_max::Float64, m::Int64)
@@ -102,8 +102,8 @@ function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_
   y_2::Vector{Int64} = zeros(Int64, 0)
   x_3::Vector{Int64} = zeros(Int64, 0)
   y_3::Vector{Int64} = zeros(Int64, 0)
-  for y=eachindex(data)
-    for x=eachindex(data[y])
+  for y = eachindex(data)
+    for x = eachindex(data[y])
       if data[y][x] == 1
         push!(x_1, x)
         push!(y_1, y)
@@ -120,9 +120,9 @@ function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_
       println("x = $x, y = $y")
     end
   end
-  display(Plots.scatter(x_1, y_1, markerstrokewidth = 0, mc=:red, legend=false))
-  display(Plots.scatter!(x_2, y_2, markerstrokewidth = 0, mc=:green, legend=false))
-  display(Plots.scatter!(x_3, y_3, markerstrokewidth = 0, mc=:blue, legend=false))
+  display(Plots.scatter(x_1, y_1, markerstrokewidth=0, mc=:red, ms=1, legend=false))
+  display(Plots.scatter!(x_2, y_2, markerstrokewidth=0, mc=:green, ms=1, legend=false))
+  display(Plots.scatter!(x_3, y_3, markerstrokewidth=0, mc=:blue, ms=1, legend=false))
 end
 
 end
@@ -130,9 +130,9 @@ end
 using .NewtonMethodAdvanced
 
 #newton method
-newton = NewtonMethodAdvanced.NewtonMethod.newton_p(complex(2.0,2.0))
+newton = NewtonMethodAdvanced.NewtonMethod.newton_p(complex(2.0, 2.0))
 #polynomials
-poly= NewtonMethodAdvanced.NewtonMethod.poly_p()
+poly = NewtonMethodAdvanced.NewtonMethod.poly_p()
 
 index = NewtonMethodAdvanced.search_true_solution(newton, poly)
 println("index = $index")
