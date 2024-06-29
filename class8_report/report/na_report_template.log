@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.5.4)  28 JUN 2024 21:42
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.5.4)  30 JUN 2024 02:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,7 +225,59 @@ File: l3backend-dvipdfmx.def 2024-04-11 L3 backend support: dvipdfmx
 \l__pdf_internal_box=\box73
 \g__pdf_backend_annotation_int=\count286
 \g__pdf_backend_link_int=\count287
-) (./na_report_template.aux)
+) (./na_report_template.aux
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+
+LaTeX Warning: Label `code:in' multiply defined.
+
+)
 \openout1 = `na_report_template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -280,17 +332,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 110.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 110.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 110.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 110.
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 110.
-
 [1
 
 ]
@@ -307,9 +348,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 156.
-
 [2]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -318,9 +356,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 191.
 
 [3]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
@@ -339,9 +374,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 228.
-
 [4]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -350,9 +382,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 248.
 
 [5]
 
@@ -363,9 +392,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 286.
-
 [6]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -374,9 +400,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 321.
 
 [7]
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
@@ -396,9 +419,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 376.
-
 [8]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -407,9 +427,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 387.
 
 [9]
 
@@ -420,9 +437,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 388.
-
 [10]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -431,9 +445,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 425.
 
 [11]
 
@@ -444,9 +455,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 460.
-
 [12]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -455,9 +463,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 495.
 
 [13]
 
@@ -468,9 +473,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 528.
-
 [14]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -480,9 +482,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 563.
-
 [15]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -491,9 +490,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 599.
 
 [16]
 File: newton.png Graphic file (type bmp)
@@ -515,9 +511,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 650.
-
 [17]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -526,9 +519,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 657.
 
 [18]
 
@@ -539,9 +529,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 693.
-
 [19]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -550,9 +537,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 727.
 
 [20]
 
@@ -563,9 +547,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 760.
-
 [21]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -574,9 +555,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 794.
 
 [22]
 
@@ -587,9 +565,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 829.
-
 [23]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -598,9 +573,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
-
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 859.
 
 [24]
 
@@ -611,9 +583,6 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 890.
-
 [25]
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -623,10 +592,64 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
 
+[26]
+File: newton_method_advaned.png Graphic file (type bmp)
+<newton_method_advaned.png>
 
-LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 917.
 
-[26] 
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 28.93726pt, for example:
+(fancyhdr)                \setlength{\headheight}{28.93726pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
+
+[27]
+
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 28.93726pt, for example:
+(fancyhdr)                \setlength{\headheight}{28.93726pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
+
+[28]
+
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 28.93726pt, for example:
+(fancyhdr)                \setlength{\headheight}{28.93726pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 28.93726pt, for example:
+(fancyhdr)                \setlength{\headheight}{28.93726pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 28.93726pt, for example:
+(fancyhdr)                \setlength{\headheight}{28.93726pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
+
+[31]
+
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 28.93726pt, for example:
+(fancyhdr)                \setlength{\headheight}{28.93726pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.93726pt}.
+
+[32] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./na_report_template.aux)
  ***********
@@ -636,22 +659,16 @@ L3 programming layer <2024-04-11>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 917.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4635 strings out of 474708
- 66607 string characters out of 5757384
+ 4672 strings out of 474708
+ 67193 string characters out of 5757384
  2171596 words of memory out of 5000000
- 27037 multiletter control sequences out of 15000+600000
+ 27072 multiletter control sequences out of 15000+600000
  569507 words of font info for 94 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 70i,12n,65p,473b,1948s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,12n,65p,473b,1874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on na_report_template.dvi (26 pages, 192328 bytes).
+Output written on na_report_template.dvi (32 pages, 235916 bytes).

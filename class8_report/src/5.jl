@@ -107,22 +107,19 @@ function newton_advanced_plot(x_min::Float64, x_max::Float64, y_min::Float64, y_
       if data[y][x] == 1
         push!(x_1, x)
         push!(y_1, y)
-        println("uooooooo one")
       elseif data[y][x] == 2
         push!(x_2, x)
         push!(y_2, y)
-        println("uooooooo two")
       elseif data[y][x] == 3
         push!(x_3, x)
         push!(y_3, y)
-        println("uooooooo three")
       end
-      println("x = $x, y = $y")
     end
   end
-  display(Plots.scatter(x_1, y_1, markerstrokewidth=0, mc=:red, ms=1, legend=false))
-  display(Plots.scatter!(x_2, y_2, markerstrokewidth=0, mc=:green, ms=1, legend=false))
-  display(Plots.scatter!(x_3, y_3, markerstrokewidth=0, mc=:blue, ms=1, legend=false))
+  Plots.scatter(x_1, y_1, markerstrokewidth=0, mc=:red, ms=1, legend=false)
+  Plots.scatter!(x_2, y_2, markerstrokewidth=0, mc=:green, ms=1, legend=false)
+  Plots.scatter!(x_3, y_3, markerstrokewidth=0, mc=:blue, ms=1, legend=false)
+  savefig("newton_method_advaned.png")
 end
 
 end
@@ -138,8 +135,4 @@ index = NewtonMethodAdvanced.search_true_solution(newton, poly)
 println("index = $index")
 println("true solution = $(poly[index])")
 
-result = NewtonMethodAdvanced.newton_advanced_data(-4.0, 4.0, -5.0, 5.0, 300)
-println("result = $result")
-
 NewtonMethodAdvanced.newton_advanced_plot(-4.0, 4.0, -5.0, 5.0, 300)
-Base.prompt("Press Anykey")
